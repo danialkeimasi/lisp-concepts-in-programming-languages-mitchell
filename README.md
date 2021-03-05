@@ -18,10 +18,10 @@ First of all what is form in lisp?
 
 you can execute functions in lisp using this syntax:
 ```lisp
-(function_name_or_symbol arg1 arg2 ...)
+(function_name_or_operator arg1 arg2 ...)
 ```
 
-Function/Symbol | Description | Example | Output | Output Type
+Function/Operator | Description | Example | Output | Output Type
 -|-|-|-|-
 **cons**|create a new [Cons Cell](https://en.wikipedia.org/wiki/Cons)| - | - | -
 ➜|(cons atom list)|(cons 1 '(2))| (1 2) | List
