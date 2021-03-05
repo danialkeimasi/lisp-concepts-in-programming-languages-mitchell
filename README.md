@@ -17,7 +17,7 @@ You can find the source codes in the [codes directory](./codes).
 # Internal Representation
 > Lisp lists are represented internally using a tree-like structure of nodes. Each node has two pointers, a left pointer and a right pointer. The left pointer points to a list element (which can be either an atom or another list) and the right pointer points to the remainder of the list.
 
-![internal representation of lisp](lisp.png)
+![internal representation of common lisp - cons cell in common lisp - lists in common lisp - atom in common lisp](lisp.png)
 
 # Cheat Sheet
 Form in Lisp:
