@@ -39,7 +39,7 @@ quote|Create a list|(quote(1 2 3)) or '(1 2 3)|(1 2 3)| List
 eval|expects a form to be evaluated and executed as argument.|(eval '(+ 1 2))|3| depends on form
 defun|define function|-|-|-
 "+ - * / mod"|mathematic operators|(+ 1 2)|3| Atom
-"< > ="|boolean operators|(< 2 5)|T| Atom
+"< > = <= >="|boolean operators|(< 2 5)|T| Atom
 rplaca|replaces the car of the cons with object|(rplaca '(1 2) 5)|(5 2)|-
 **rplacd**|replaces the cdr of the cons with object|-|-|-
 ➜|(rplacd list atom)|(rplacd '(1 2) 5)|(1 . 5)|Cons Cell
