@@ -6,7 +6,7 @@ Plus:
 - an internal representation of lisp
 - a minimal cheat sheet of pure lisp commands
 
-You can see this source codes in the [codes directory](./codes).
+You can find the source codes in the [codes directory](./codes).
 
 # Install Clisp
 
