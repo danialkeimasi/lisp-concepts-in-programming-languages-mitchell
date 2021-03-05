@@ -40,4 +40,4 @@ rplacd|(rplacd list atom)|(rplacd '(1 2) 5)|(1 . 5)|Cons Cell
 rplacd|(rplacd list list)|(rplacd '(1 2) '(4 5))|(1 4 5)|List
 defun|define function|-|-|-
 "+ - * / mod"|mathematic operators|(+ 1 2)|3| Atom
-"< > ="|boolean operators|(< 2 5>)|T|-
+"< > ="|boolean operators|(< 2 5)|T|-
