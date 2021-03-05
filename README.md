@@ -17,9 +17,10 @@ you can execute functions in lisp using this syntax:
 ```lisp
 (function_name_or_symbol param1 param2 ...)
 ```
-function | description | example | output | Output Type
+
+Function/Symbol | Description | Example | Output | Output Type
 -|-|-|-|-
-cons|create a new [cons cell](https://en.wikipedia.org/wiki/Cons)| - | - | -
+**cons**|create a new [Cons Cell](https://en.wikipedia.org/wiki/Cons)| - | - | -
 cons|(cons atom list)|(cons 1 '(2))| (1 2) | List
 cons|(cons list atom)|(cons '(2) 5)| ((2) . 5) | Cons Cell
 cons|(cons atom atom)|(cons 1 2)| (1 . 2) | Cons Cell
@@ -29,14 +30,14 @@ cdr|returns first element of the list| (cdr '(1 2)) | (2) | List
 eq|returns T if equal else NIL|(eq 2 2)|T| -
 equal/eql/equalp|[Read here](https://stackoverflow.com/questions/547436/whats-the-difference-between-eq-eql-equal-and-equalp-in-common-lisp)|-|-|-
 cond|condition|(cond (cond1 (exp)) (cond2 (exp)) ... (T (last)))| - | -
-lambda|[Read here](https://stackoverflow.com/questions/13213611/writing-lambda-expressions-in-common-lisp)|||
-funcall/apply|[Read here](https://stackoverflow.com/questions/3862394/when-do-you-use-apply-and-when-funcall)|||
-quote||(quote(1 2 3)) or '(1 2 3)||
+lambda|[Read here](https://stackoverflow.com/questions/13213611/writing-lambda-expressions-in-common-lisp)|-|-|-
+funcall/apply|[Read here](https://stackoverflow.com/questions/3862394/when-do-you-use-apply-and-when-funcall)|-|-|-
+quote|Create a list|(quote(1 2 3)) or '(1 2 3)|(1 2 3)|-
 eval|expects a form to be evaluated and executed as argument.|(eval '(+ 1 2))|3| -
-rplaca|replaces the car of the cons with object|(rplaca '(1 2) 5)|(5 2)|
-rplacd|replaces the cdr of the cons with object|-|-|-
+rplaca|replaces the car of the cons with object|(rplaca '(1 2) 5)|(5 2)|-
+**rplacd**|replaces the cdr of the cons with object|-|-|-
 rplacd|(rplacd list atom)|(rplacd '(1 2) 5)|(1 . 5)|Cons Cell
 rplacd|(rplacd list list)|(rplacd '(1 2) '(4 5))|(1 4 5)|List
-defun|define function|||
+defun|define function|-|-|-
 "+ - * / mod"|mathematic operators|(+ 1 2)|3| Atom
-"< > ="|boolean operators|(< 2 5>)|T|
+"< > ="|boolean operators|(< 2 5>)|T|-
