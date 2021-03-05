@@ -15,9 +15,10 @@ You can see this source codes in the [codes directory](./codes).
 # Cheat Sheet
 First of all what is form in lisp?
 > A Lisp object that is intended to be evaluated is called a form (or an expression).
+
 you can execute functions in lisp using this syntax:
 ```lisp
-(function_name_or_symbol param1 param2 ...)
+(function_name_or_symbol arg1 arg2 ...)
 ```
 
 Function/Symbol | Description | Example | Output | Output Type
