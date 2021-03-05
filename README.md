@@ -29,7 +29,7 @@ Function/Operator | Description | Example | Output | Output Type
 ➜|(cons atom atom)|(cons 1 2)| (1 . 2) | Cons Cell
 ➜|(cons list list)|(cons '(1 2) '(3))| ((1 2) 3) | List
 car|returns first element of the list| (car '(1 2)) | 1 | Atom
-cdr|returns first element of the list| (cdr '(1 2)) | (2) | List
+cdr|returns everything after first element of list as a list| (cdr '(1 2)) | (2) | List
 eq|returns T if equal else NIL|(eq 2 2)|T| Atom
 equal/eql/equalp|[Read here](https://stackoverflow.com/questions/547436/whats-the-difference-between-eq-eql-equal-and-equalp-in-common-lisp)|-|-|-
 cond|condition|(cond (cond1 (exp)) (cond2 (exp)) ... (T (last)))| - | -
