@@ -1,6 +1,12 @@
-# Pure Lisp Sample Codes
+# Starter Pack of Pure Lisp
 
 This repo contains the source codes in `Part 1-3 (Lisp: Functions, Recursion, and Lists)` of `Concepts in Programming Languages` By `John C. Mitchell`.
+
+Plus:
+- an internal representation of lisp
+- a minimal cheat sheet of pure lisp commands
+
+You can see this source codes in the [codes directory](./codes).
 
 # Install Clisp
 
@@ -8,20 +14,16 @@ This repo contains the source codes in `Part 1-3 (Lisp: Functions, Recursion, an
 - On Mac: `brew install clisp`
 - On Windows: [Download](https://sourceforge.net/projects/clisp/)
 
-# Source Codes
-
-You can see this source codes in the [codes directory](./codes).
-
 # Internal Representation
 > Lisp lists are represented internally using a tree-like structure of nodes. Each node has two pointers, a left pointer and a right pointer. The left pointer points to a list element (which can be either an atom or another list) and the right pointer points to the remainder of the list.
 
 ![internal representation of lisp](lisp.png)
 
 # Cheat Sheet
-First of all what is form in lisp?
+Form in Lisp:
 > A Lisp object that is intended to be evaluated is called a form (or an expression).
 
-you can execute functions in lisp using this syntax:
+You can execute functions in lisp using this syntax:
 ```lisp
 (function_name_or_operator arg1 arg2 ...)
 ```
