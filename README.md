@@ -13,7 +13,7 @@ This repo contains the source codes in `Part 3 (Lisp: Functions, Recursion, and 
 You can see this source codes in the [codes directory](./codes).
 
 # Cheat Sheet
-First of all what is form in list?
+First of all what is form in lisp?
 > A Lisp object that is intended to be evaluated is called a form (or an expression).
 you can execute functions in lisp using this syntax:
 ```lisp
