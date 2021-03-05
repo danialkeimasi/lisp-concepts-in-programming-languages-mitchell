@@ -1,4 +1,11 @@
-;;;; EXAMPLE IN Page 35:
+;;;; Example Page 35: maplist
+
+#||
+    A maplist is a function that takes a function and list and applies the function to
+    every element in the list. The result is a list that contains all the results of function
+    application. Using define to define a recursive function, we can write the maplist as
+    follows:
+||#
 
 (defun xx (x) (+ x x))
 
@@ -9,4 +16,4 @@
     )
 )
 
-(print (maplist2 #'xx '(2 4 6)))
+(print (maplist2 #'xx '(2 4 6))); (4 8 12)

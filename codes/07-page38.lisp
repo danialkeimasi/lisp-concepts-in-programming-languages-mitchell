@@ -1,10 +1,11 @@
-;;;; Page 38:
+;;;; Page 38: Pure Lisp and Side Effects
 
-(print (rplaca '(1 2 3 4) 5))
-(print (rplacd '(1 2 3 4) 5))
+
+(print (rplaca '(1 2 3 4) 5)); (5 2 3 4)
+(print (rplacd '(1 2 3 4) 5)); (1 . 5)
 
 (lambda (x) (cons (car x) (cons (rplaca x 5) (car x))))
-(print (cons 1 2))
+(print (cons 1 2)); (1 . 2)
 
 (defun crc (x)
     (cons
@@ -13,7 +14,7 @@
     )
 )
 
-(print (crc '(1 2 3)))
+(print (crc '(1 2 3))); (1 (5 2 3) . 5)
 
 (defun crc2 (x)
     (cons
@@ -22,4 +23,4 @@
     )
 )
 
-(print (crc2 '(1 2 3)))
+(print (crc2 '(1 2 3))); (1 (5 2 3) . 1)

@@ -1,7 +1,7 @@
-;;;;;; Page 30:
+;;;; Page 30:
 
-(defun duplicate(x)
+(defun duplicate (x)
     (cons x x)
 )
 
-(print (duplicate 'a))
+(print (duplicate 'A)); (A . A)
