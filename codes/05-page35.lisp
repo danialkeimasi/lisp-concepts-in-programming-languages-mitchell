@@ -5,7 +5,7 @@
 (defun maplist2 (f x)
     (cond
         ((eq x nil) nil)
-        (t (cons (funcall f (car x)) (maplist2 f(cdr x))))
+        (T (cons (funcall f (car x)) (maplist2 f(cdr x))))
     )
 )
 

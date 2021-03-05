@@ -2,8 +2,8 @@
 
 (defun substitute31 (exp1 var exp2)
     (cond
-        ((atom exp2) (cond ((eq exp2 var) exp1) (t exp2)))
-        (t (cons (substitute31 exp1 var (car exp2))
+        ((atom exp2) (cond ((eq exp2 var) exp1) (T exp2)))
+        (T (cons (substitute31 exp1 var (car exp2))
                  (substitute31 exp1 var (cdr exp2))
            )
         )
@@ -19,6 +19,6 @@
 (defun f(x)
     (cond
         ((eq x 0) 0)
-        (t (+ x(f (- x 1))))
+        (T (+ x(f (- x 1))))
     )
 )

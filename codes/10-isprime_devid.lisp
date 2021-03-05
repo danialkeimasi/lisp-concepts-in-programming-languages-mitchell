@@ -4,9 +4,9 @@
 (defun devid (x y)
     (cond
         ((eq 1 y) 1)
-        (t  (cond
+        (T  (cond
                 ((eq 0 (mod x y)) (+ 1 (devid x(- y 1))))
-                (t (devid x (- y 1)))
+                (T (devid x (- y 1)))
             )
         )
     )
@@ -18,8 +18,8 @@
 
 (defun isPrime(n)
     (cond
-        ((eq 2 (devid-count n)) t)
-        (t NIL)
+        ((eq 2 (devid-count n)) T)
+        (T NIL)
     )
 )
 

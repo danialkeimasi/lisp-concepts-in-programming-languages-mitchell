@@ -4,7 +4,7 @@
     (cond
         ((equal lst nil) nil)
         ((equal x (car lst)) (cdr lst))
-        (t (select x (cdr lst)))
+        (T (select x (cdr lst)))
     )
 )
 

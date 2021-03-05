@@ -1,9 +1,9 @@
-;;;; common divisors
+;;;; Common Divisors
 
 (defun factor (x y)
     (cond
-        ((and (eq (mod x y) 0) (funcall #'isprime y )) t)
-        (t nil)
+        ((and (eq (mod x y) 0) (funcall #'isprime y )) T)
+        (T nil)
     )
 )
 
