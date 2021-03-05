@@ -2,7 +2,7 @@
 #||
     Example. Here is a slightly longer Lisp program example, the definition of a function
     that searches a list. The find function takes two arguments, x and y, and searches the
-    list y for an occurrence of x. The declaration begins with define, which indicates
+    list y for an occurrence of x. The declaration begins with defun, which indicates
     that this is a declaration. Then follows the name find that is being defined, and the
     expression for the find function:
 ||#
