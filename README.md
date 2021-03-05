@@ -1,6 +1,6 @@
 # Pure Lisp Sample Codes
 
-This repo contains the source codes in `Part 3 (Lisp: Functions, Recursion, and Lists)` of `Concepts in Programming Languages` By `John C. Mitchel`.
+This repo contains the source codes in `Part 3 (Lisp: Functions, Recursion, and Lists)` of `Concepts in Programming Languages` By `John C. Mitchell`.
 
 # Install Clisp
 
