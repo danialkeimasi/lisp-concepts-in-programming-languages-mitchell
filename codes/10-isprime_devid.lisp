@@ -24,5 +24,5 @@
 )
 
 (print (devid-count 3)); 2
-(print (isprime 3));     T
-(print (isprime 10));    NIL
+(print (isprime 3)); T
+(print (isprime 10)); NIL
