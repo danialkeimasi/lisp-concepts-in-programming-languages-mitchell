@@ -1,4 +1,4 @@
-# Starter Pack of Pure Lisp
+# Pure Lisp Starter Pack
 
 This repo contains the source codes in `Part 1-3 (Lisp: Functions, Recursion, and Lists)` of `Concepts in Programming Languages` By `John C. Mitchell`.
 
