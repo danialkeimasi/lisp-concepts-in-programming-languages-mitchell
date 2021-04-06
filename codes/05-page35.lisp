@@ -17,3 +17,4 @@
 )
 
 (print (maplist2 #'xx '(2 4 6))); (4 8 12)
+(print (maplist2 (lambda (x) (+ x x)) '(2 4 6))); (4 8 12)
